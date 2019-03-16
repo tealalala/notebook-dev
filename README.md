@@ -8,4 +8,5 @@ My web dev notebook for:
 ---
 
 ## Table of Contents
+* [Django](django/README.md)
 * [Ruby on Rails](ruby-on-rails/README.md)
