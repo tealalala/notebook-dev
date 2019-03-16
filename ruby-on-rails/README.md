@@ -1,20 +1,20 @@
 # Ruby on Rails
 
 ## Table of Contents
-* [Before Rails](#before-rails-dev)
-* [During Rails](#during-rails-dev)
-* [After Rails](#after-rails-dev)
+* [Before Development](#before-development)
+* [During Development](#during-development)
+* [After Development / Production](#after-development-production)
 
 ---
 
-## Before Rails Dev
+## Before Development
 * [Create new Rails app](ruby-on-rails/create-new-rails-app.md)
 
 ---
 
-## During Rails Dev
+## During Development
 
 ---
 
-## After Rails Dev
+## After Development / Production
 Production time

@@ -1,4 +1,4 @@
-# Django
+# JavaScript
 
 ## Table of Contents
 * [Before Development](#before-development)
@@ -8,7 +8,6 @@
 ---
 
 ## Before Development
-* [Create new Django app](django/create-new-django-app.md)
 
 ---
 
