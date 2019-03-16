@@ -1,9 +1,9 @@
 # Ruby on Rails
 
 ## Table of Contents
-* Before Rails
-* During Rails
-* After Rails
+* [Before Rails](#before-rails-dev)
+* [During Rails](#during-rails-dev)
+* [After Rails](#after-rails-dev)
 
 ---
 
@@ -16,4 +16,5 @@
 
 ---
 
-## After Rails Dev (Production)
+## After Rails Dev
+Production time
