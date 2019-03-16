@@ -10,8 +10,15 @@ In terminal:
 ```
 rails new $1
 cd $1
-rails generate controller api/$2	          # controllers are plural name
-rails generate model $3 key:type key:type   # models are singular name; key:type - list the table attribute and data type
-rails db:create			                        # create db for $3
+
+# controllers are plural name
+rails generate controller api/$2
+
+# models are singular name; key:type - list the table attribute and data type
+rails generate model $3 key:type key:type
+
+# create db for $3
+rails db:create
+
 bundle install
 ```
