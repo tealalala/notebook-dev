@@ -1,4 +1,4 @@
-# Create new Django app and project
+# Create new Django app
 
 In terminal:
 

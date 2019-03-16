@@ -8,7 +8,7 @@
 ---
 
 ## Before Django Dev
-* [Create new Django app](django/create-new-django-app-and-prjt.md)
+* [Create new Django app](django/create-new-django-app.md)
 
 ---
 
