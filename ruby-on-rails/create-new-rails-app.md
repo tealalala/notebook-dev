@@ -2,9 +2,9 @@
 
 In terminal:
 
-$1 = project name
-$2 = controller name (plural)
-$3 = model name (singular)
+- $1 = project name
+- $2 = controller name (plural)
+- $3 = model name (singular)
 
 
 ```
