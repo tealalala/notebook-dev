@@ -3,12 +3,13 @@
 ## Table of Contents
 * [Before Development](#before-development)
 * [During Development](#during-development)
-* [After Development / Production](#after-development-production)
+* [After Development / Production](#after-development--production)
 
 ---
 
 ## Before Development
-* [Create new Rails app](ruby-on-rails/create-new-rails-app.md)
+* [Create new Rails app](create-new-rails-app.md)
+* [# Setup Environment with Homebrew-rbenv and rbenv-(Ruby and Ruby on Rails)](#setup-ruby-rails.md)
 
 ---
 
@@ -17,4 +18,3 @@
 ---
 
 ## After Development / Production
-Production time

@@ -1,5 +1,5 @@
-# Django
-https://www.djangoproject.com/
+# Homebrew
+https://brew.sh
 
 ## Table of Contents
 * [Before Development](#before-development)
@@ -9,7 +9,7 @@ https://www.djangoproject.com/
 ---
 
 ## Before Development
-* [Create new Django app](create-new-django-app.md)
+* [Basic Handling: Install and Uninstall](basic-handling.md)
 
 ---
 

@@ -1,12 +1,17 @@
 # Create new Django app
 
+## Materials
+* Django v2.1.7
+* Python 3.7.2
+
+## Instructions
 In terminal:
 
 - $1 = project name
   * DO: underscores( _ )
   * DO NOT: hyphens ( - )
 
-## Step 1: Setup and Check Server
+### Step 1: Setup and Check Server
 ```
 python3 -m django --version
 
@@ -16,7 +21,7 @@ python3 manage.py startapp $1
 python3 manage.py migrate
 python3 manage.py runserver
 ```
-## Step 2: Database
+### Step 2: Database
 If created databases, then do this:
 
 ```
@@ -24,7 +29,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-## Step 3: Database & Python Shell
+### Step 3: Database & Python Shell for Specific Project
 Test database here:
 
 - $2 = model name (singular)

@@ -1,5 +1,5 @@
-# Django
-https://www.djangoproject.com/
+# Postgresql
+https://www.postgresql.org/
 
 ## Table of Contents
 * [Before Development](#before-development)
@@ -9,7 +9,7 @@ https://www.djangoproject.com/
 ---
 
 ## Before Development
-* [Create new Django app](create-new-django-app.md)
+* [Daily: Using Postgresql Database Server](using-server-daily.md)
 
 ---
 
