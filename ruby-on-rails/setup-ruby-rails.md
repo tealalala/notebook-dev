@@ -35,7 +35,6 @@ brew install rbenv
 ```
 
 ### Step 2: Install `rbenv` with `brew`
-`rbenv` creates **shims** for all Rails commands (`ruby`, `irb`, etc.) across all versions of Ruby. This process is called rehashiing. Make sure to run `rbenv rehash` when new commands are shimmed.
 ```
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -46,6 +45,7 @@ brew install rbenv
 
 ### Step 3: Install `rubygems`, `rails`, `ruby` with `rbenv`
 * See above for installation locations.
+* `rbenv` creates **shims** for all Rails commands (`ruby`, `irb`, etc.) across all versions of Ruby. This process is called rehashing. Make sure to run `rbenv rehash` when new commands are shimmed.
 
 ```
 # rubygems should already be installed with ruby via ruby-build from Homebrew
@@ -53,12 +53,13 @@ brew install rbenv
 gem update --system   # update rubygems only, if needed
 rbenv install 2.5.1   # installs specific version of ruby
 rbenv install rails   # install rails, recent version
+rbenv rehashing       # rbenv re-shims packages
 ```
 
 ### Step 4: Switch Ruby version in different environments
 DO THIS:
   * `rbenv shell` => set ruby version temporarily in the shell
-  * `rbenv local` => set ruby version in project
+  * `rbenv local` => set ruby version in local project
   * `rbenv global` => set ruby version on global
 
 ```
@@ -76,5 +77,4 @@ ruby -v
 ruby -v
 rbenv global 2.5.1
 ruby -v
-
 ```

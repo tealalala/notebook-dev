@@ -11,6 +11,7 @@ In terminal:
 brew doctor       # diagnose errors
 brew cleanup      # clean up old packages
 ```
+
 ### Step 2: Install New Packages
 - $1 = package name, new
 - $2 = package name, upgrade
