@@ -1,7 +1,8 @@
 # Basic Handling: Install, Uninstall, Upgrade & List
 
 ## Materials
-* npm v6.9.0
+* brew
+  * npm v6.9.0 - install with brew
 
 ## Instructions
 In terminal:
@@ -23,10 +24,10 @@ npm upgrade -g $2
 ### Step 3: List all `npm` packages in global and local
 ```
 # global list - lists main package, no dependencies
-npm list -global --depth=0   # longhand
-npm list -g --depth=0        # shorthand
+npm list -global --depth=0      # longhand
+npm list -g --depth=0           # shorthand
 
 # local list - lists main package, no dependencies
-npm list -local --depth=0   # longhand
-npm list -l --depth=0       # shorthand - lists more details on pkg
+npm list -local --depth=0       # longhand
+npm list -l --depth=0           # shorthand - lists more details on pkg
 ```

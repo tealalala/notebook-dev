@@ -16,14 +16,14 @@ initdb /usr/local/var/postgres              # create database in your local fold
 ```
 
 ### Step 2 - Manage Database Server
-#### Option 1: Manually Start, End and Check Status of Postgres Server
+1. **Option 1: Manually Start, End and Check Status of Postgres Server**
 ```
 pg_ctl -D /usr/local/var/postgres start     # start postgres server
 pg_ctl -D /usr/local/var/postgres stop      # stop postgres server
 pg_ctl -D /usr/local/var/postgres status    # check the status of the server when you need to
 ```
 
-#### Option 2: Automatically Start, End and Restart Postgres Server in Brew
+2. **Option 2: Automatically Start, End and Restart Postgres Server in Brew**
 ```
 brew services start postgresql              # start postgres server whenever you logged in
 brew services stop postgresql               # stop postgresql server
