@@ -1,19 +1,19 @@
-# JavaScript
+# Gatsby.js
+* A modern static generator, which means no server setup and databases to deploy.
+* Built on React and made to load quickly.
+* Offical Website: https://www.gatsbyjs.org/
+
+---
 
 ## Table of Contents
-* [Concepts](#concepts)
 * [Before Development](#before-development)
 * [During Development](#during-development)
 * [After Development / Production](#after-development--production)
 
 ---
 
-## Concepts
-* [ES6](es6.md)
-
----
-
 ## Before Development
+* [Basic Handling: Install, Uninstall and Upgrade](basic-handling.md)
 
 ---
 
