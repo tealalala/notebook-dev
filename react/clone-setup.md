@@ -1,7 +1,7 @@
 # Git Cloning an existing project and Setting Up
 
 ## Materials
-* Brew v2.0.4
+* npm
 
 ## Instructions
 In terminal:
@@ -10,16 +10,6 @@ In terminal:
 - $1 = github address to project
 ```
 git clone $1
-```
-
-### Step 2:
-- $2 = package name, new
-
-```
-
-```
-
-### Step 3:
-```
-
+npm install                 # install modules for prjt
+npm list -local --depth=0
 ```
