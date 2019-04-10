@@ -1,4 +1,5 @@
-# Git
+# rbenv
+https://github.com/rbenv/rbenv
 
 ## Table of Contents
 * [Before Development](#before-development)
@@ -8,9 +9,7 @@
 ---
 
 ## Before Development
-* [Basic Handling: Branch and Merge Request to Master](basic-handling-small-prjt.md)
-* [Merge Feature to Master Branch](merge-feature-to-master.md)
-* [Squash Commits](squash-commits.md)
+* [Basic Handling: Install, Uninstall & Upgrade](basic-handling-rbenv.md)
 
 ---
 

@@ -9,12 +9,22 @@
 
 ## Before Development
 * [Create new Rails app](create-new-rails-app.md)
-* [# Setup Environment with Homebrew-rbenv and rbenv-(Ruby and Ruby on Rails)](#setup-ruby-rails.md)
+* [Setup Environment with Homebrew-rbenv and rbenv-(Ruby and Ruby on Rails)](setup-ruby-rails.md)
 
 ---
 
 ## During Development
 
+
+### Troubleshoot: Before Development
+* [Error when run `rails server` or `rails console`](error-railS-railsC.md)
 ---
 
 ## After Development / Production
+
+---
+
+## Gems
+
+* [Figaro](gems/figaro.md)
+* [OAuth2]()

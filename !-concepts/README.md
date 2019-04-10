@@ -1,6 +1,0 @@
-# Concepts
-
-## Table of Contents
-
-
----
