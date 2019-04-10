@@ -53,7 +53,8 @@ brew install rbenv
 gem update --system   # update rubygems only, if needed
 rbenv install 2.5.1   # installs specific version of ruby
 rbenv install rails   # install rails, recent version
-rbenv rehashing       # rbenv re-shims packages
+rbenv rehash          # rbenv re-shims packages
+rbenv install --list  # check for other versions to install
 ```
 
 ### Step 4: Switch Ruby version in different environments
