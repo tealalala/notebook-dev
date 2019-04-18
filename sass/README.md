@@ -1,5 +1,6 @@
-# rbenv
-https://github.com/rbenv/rbenv
+# Sass
+CSS Preprocessor
+https://sass-lang.com/
 
 ## Table of Contents
 * [Before Development](#before-development)
@@ -9,12 +10,10 @@ https://github.com/rbenv/rbenv
 ---
 
 ## Before Development
-* [Basic Handling: Install, Uninstall & Upgrade](basic-handling-rbenv.md)
 
 ---
 
 ## During Development
-* [Change Ruby Versions in Global, Local, and Shell](change-versions.md)
 
 ---
 

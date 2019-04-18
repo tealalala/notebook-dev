@@ -10,16 +10,35 @@ In terminal:
 - $2 = controller name (plural)
 - $3 = model name (singular)
 
+### Long-hand
+
 ```
 rails new $1
 cd $1
 
 # controllers are plural name
 rails generate controller api/$2  # generate controller longform
-rails g controller api/$2         # generate controller shortform
 
 # models are singular name; key:type - list the table attribute and data type
 rails generate model $3 key:type key:type
+
+# create db for $3
+rails db:create
+
+bundle install
+```
+
+### Short-hand
+```
+rails new $1
+cd $1
+
+# controllers are plural name
+rails g controller api/$2  # generate controller longform
+rails g controller api/$2         # generate controller shortform
+
+# models are singular name; key:type - list the table attribute and data type
+rails g model $3 key:type key:type
 
 # create db for $3
 rails db:create

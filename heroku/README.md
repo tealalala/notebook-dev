@@ -1,5 +1,5 @@
-# rbenv
-https://github.com/rbenv/rbenv
+# Heroku
+https://heroku.com
 
 ## Table of Contents
 * [Before Development](#before-development)
@@ -9,12 +9,11 @@ https://github.com/rbenv/rbenv
 ---
 
 ## Before Development
-* [Basic Handling: Install, Uninstall & Upgrade](basic-handling-rbenv.md)
+* [Basic Handling: Install & Deploy](install-deploy.md)
 
 ---
 
 ## During Development
-* [Change Ruby Versions in Global, Local, and Shell](change-versions.md)
 
 ---
 

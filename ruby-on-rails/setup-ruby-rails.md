@@ -24,7 +24,7 @@ Third, we'll install with `rbenv`:
 | Ruby           | 2.5.1   | /Users/$1/.rbenv/shims/ruby                |
 
 ## Instructions
-### Step 1: Install `brew`
+### Step 1: Install `brew` and `rbenv`
 
 ```
 # Install Homebrew
@@ -32,16 +32,19 @@ Third, we'll install with `rbenv`:
 
 # Install rbenv
 brew install rbenv
+brew info rbenv
 ```
 
-### Step 2: Install `rbenv` with `brew`
-```
-# Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+### Step 2: Add to your `.bash_profile`
 
-# Install rbenv
-brew install rbenv
 ```
+# Rbenv - Ruby Version Manager
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+```
+* DO NOT add to the `.bash_profile`: `export PATH="/usr/local/opt/ruby/bin:$PATH"`
+  * this defaults the config computer environment to the system's Ruby version
+  * if you add this, and try to run an older Ruby version in a project, all the gems will be added to the system's Ruby version, NOT your Ruby version of choice
 
 ### Step 3: Install `rubygems`, `rails`, `ruby` with `rbenv`
 * See above for installation locations.

@@ -16,5 +16,11 @@ git merge $1
 git push origin master
 
 git log --oneline -n 5
+
+# delete local branch
 git branch -D $1
+
+# delete remote branch
+git push origin --delete $1
+git push origin :$1
 ```

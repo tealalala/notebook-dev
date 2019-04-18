@@ -13,8 +13,8 @@
 ---
 
 ## Before Development
-* [Basic Handling: Install, Uninstall and Upgrade](basic-handling.md)
 * [Develop](develop.md)
+* [New PRoject](new-prjt.md)
 
 ---
 

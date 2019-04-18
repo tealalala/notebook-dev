@@ -15,7 +15,14 @@ which psql                                  # and do this to check where the fil
 initdb /usr/local/var/postgres              # create database in your local folder
 ```
 
-### Step 2 - Manage Database Server
+### Step 2: Setup Postico
+Add below and everything else can be empty:
+
+```
+Database: postgres
+```
+
+### Step 3 - Manage Database Server
 1. **Option 1: Manually Start, End and Check Status of Postgres Server**
 ```
 pg_ctl -D /usr/local/var/postgres start     # start postgres server

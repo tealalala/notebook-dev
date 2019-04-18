@@ -10,6 +10,7 @@
 ## Before Development
 * [Create new Rails app](create-new-rails-app.md)
 * [Setup Environment with Homebrew-rbenv and rbenv-(Ruby and Ruby on Rails)](setup-ruby-rails.md)
+* [Working on an Existing Rails App](existing-rails-app.md)
 
 ---
 
