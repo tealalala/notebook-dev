@@ -1,6 +1,6 @@
-# Sass
-CSS Preprocessor
-https://sass-lang.com/
+# SASS
+* a CSS Preprocessor
+* Official Website: https://sass-lang.com/
 
 ## Table of Contents
 * [Before Development](#before-development)

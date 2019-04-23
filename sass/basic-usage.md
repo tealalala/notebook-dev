@@ -14,17 +14,17 @@
 ```
 # project-directory
 
-# manual convert scss => css
+# manual compile scss => css
 sass input.scss:input.css
 
-# dynamic convert scss => css: watch and update SCSS files
+# dynamic compile scss => css: watch and update SCSS files
 sass --watch input.scss:output.css        # used for watching ONE Sass file
 sass --watch app/sass:public/stylesheets  # used for watching MULTIPLE Sass files
 
 # style conversion scss => css: expand, compact, or compress
 sass --watch --style expand input.scss:output.css     # expand nested => expand
-sass --watch --style compact input.scss:output.css    # compact => converts css into one-liner
-sass --watch --style compressed input.scss:output.css # compress => removes all spaces and line breaks (think of minified css)
+sass --watch --style compact input.scss:output.css    # compact => compiles css into one-liner
+sass --watch --style compressed input.scss:output.css # compress => compiles removes all spaces and line breaks (think of minified css)
 ```
 
   * `sass input.scss input.css`
