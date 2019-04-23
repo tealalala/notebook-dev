@@ -8,13 +8,14 @@
 ---
 
 ## Before Development
-* [Basic Handling: Branch and Merge Request to Master](basic-handling-small-prjt.md)
-* [Merge Feature to Master Branch](merge-feature-to-master.md)
-* [Squash Commits](squash-commits.md)
 
 ---
 
 ## During Development
+* [Basic Handling: Branch and Merge Request to Master](basic-handling-small-prjt.md)
+* [Bash Functions for Git](bash-git.md)
+* [Merge Feature to Master Branch](merge-feature-to-master.md)
+* [Squash Commits](squash-commits.md)
 
 ---
 

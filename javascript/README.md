@@ -10,7 +10,6 @@
 
 ## Concepts
 
-
 ---
 
 ## Before Development
