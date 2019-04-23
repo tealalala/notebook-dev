@@ -1,4 +1,5 @@
 # SASS
+* acronym that stands for "Syntactically Awesome Style Sheets"
 * a CSS Preprocessor
 * Official Website: https://sass-lang.com/
 
@@ -10,7 +11,8 @@
 ---
 
 ## Before Development
-
+* [Basic Usage: SASS](basic-usage.md)
+* [Install Dart-SASS](install.md)
 ---
 
 ## During Development

@@ -1,5 +1,5 @@
 # CSS
-* Cascading Style Sheets
+* acronym that stands for "Cascading Style Sheets"
 
 ## Table of Contents
 * Selected List of CSS Preprocessors

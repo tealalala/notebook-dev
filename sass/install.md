@@ -1,4 +1,4 @@
-# Install SASS
+# Install Dart-SASS
 
 ## Materials
 * Dart-SASS
