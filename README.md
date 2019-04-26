@@ -8,6 +8,7 @@ My web dev notebook for:
 ---
 
 ## Table of Contents
+* [CSS](css/README.md)
 * [Django](django/README.md)
 * [Gatsby](gatsby/README.md)
 * [Git](git/README.md)
@@ -21,4 +22,4 @@ My web dev notebook for:
 * [rbenv](rbenv/README.md)
 * [React](react/README.md)
 * [Ruby on Rails](ruby-on-rails/README.md)
-* [Sass](sass/README.md)
+* [SASS](sass/README.md)

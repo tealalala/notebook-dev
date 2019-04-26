@@ -11,11 +11,11 @@
 ---
 
 ## Before Development
-* [Basic Usage: SASS](basic-usage.md)
 * [Install Dart-SASS](install.md)
 ---
 
 ## During Development
+* [Basic Usage: SASS](basic-usage.md)
 
 ---
 

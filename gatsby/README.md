@@ -14,7 +14,7 @@
 
 ## Before Development
 * [Develop](develop.md)
-* [New PRoject](new-prjt.md)
+* [New Project](new-prjt.md)
 
 ---
 

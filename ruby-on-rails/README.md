@@ -18,7 +18,7 @@
 
 
 ### Troubleshoot: Before Development
-* [Error when run `rails server` or `rails console`](error-railS-railsC.md)
+* [Error when run `rails server` or `rails console`](troubleshoot/error-railS-railsC.md)
 ---
 
 ## After Development / Production
@@ -28,4 +28,3 @@
 ## Gems
 
 * [Figaro](gems/figaro.md)
-* [OAuth2]()

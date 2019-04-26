@@ -27,3 +27,5 @@ Add below and everything else can be empty:
 ```
 Database: postgres
 ```
+
+Click **connect** to start the PostgreSQL server with Postico.
