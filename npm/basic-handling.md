@@ -18,7 +18,14 @@ brew upgrade npm       # upgrade npm with brew
 
 ```
 npm install -g $1
+
+# update local package
 npm upgrade -g $2
+
+# update global packages
+npm outdated -g --depth=0
+npm update -g
+
 ```
 
 ### Step 3: List all `npm` packages in global and local

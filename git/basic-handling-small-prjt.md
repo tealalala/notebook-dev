@@ -10,6 +10,11 @@ In terminal:
 # make edits to Branch
 git checkout -b my-branch-name
 
+# sub-branch (sub-branch1) of a branch (branch1)
+git checkout branch1
+git checkout -b sub-branch1 branch1
+git push origin sub-branch1
+
 # create merge request
 git checkout master
 git pull

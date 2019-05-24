@@ -67,7 +67,6 @@ class Person extends Human {
 
 ```
 # arrow function
-
 const foo = () => {
   // do something
 }
