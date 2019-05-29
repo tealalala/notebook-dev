@@ -13,5 +13,6 @@ Start in the local folder to copy to remote server
 
 ```
 scp -rp $1 $2:$3
-
 ```
+* `-r` => recursively (adds all directories)
+* `-p` => preserves modification and access times of original file

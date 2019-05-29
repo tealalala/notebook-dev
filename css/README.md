@@ -2,7 +2,7 @@
 * acronym that stands for "Cascading Style Sheets"
 
 ## Table of Contents
-* [Selected List of CSS Preprocessors](#selected-list-of-css-preprocessors)
+* [Tools](#tools)
 * [Concept Outlines](#concept-outlines)
 * [Before Development](#before-development)
 * [During Development](#during-development)
@@ -10,7 +10,7 @@
 
 ---
 
-## Selected List of CSS Preprocessors
+## Tools
 A **CSS preprocessor** is an extension of CSS that compiles an advanced stylesheet language (i.e. LESS, SASS) into regular CSS.
 * LESS - "Leaner Style Sheets"
 * [SASS](../sass/README.md) - "Syntactically Awesome Style Sheets"

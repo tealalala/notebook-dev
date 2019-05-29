@@ -12,13 +12,22 @@
 
 ---
 
-## Flex Properties
+## Flex Container Properties
+
 * display
+* align-content (spacing in cross axis)
+* align-items (cross axis)
+* justify-content (main axis)
+* flex-flow
+  - flex-direction
+  - flex-wrap
+
+---
+
+## Flex Item Properties
+* align-self
 * flex
   - flex-grow
   - flex-shrink
   - flex-basis
-* flex-flow
-  - flex-direction
-  - flex-wrap
 * order
