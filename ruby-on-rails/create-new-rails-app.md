@@ -22,6 +22,9 @@ rails generate controller api/$2  # generate controller longform
 # models are singular name; key:type - list the table attribute and data type
 rails generate model $3 key:type key:type
 
+# add postgres to Gemfile
+gem 'pg'
+
 # create db for $3
 rails db:create
 
@@ -34,7 +37,7 @@ rails new $1
 cd $1
 
 # controllers are plural name
-rails g controller api/$2  # generate controller longform
+rails generate controller api/$2  # generate controller longform
 rails g controller api/$2         # generate controller shortform
 
 # models are singular name; key:type - list the table attribute and data type

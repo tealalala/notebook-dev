@@ -1,4 +1,4 @@
-# scp
+# Secure Copy (`scp`)
 * acronym stands for "Secure Copy"
 
 ## Materials

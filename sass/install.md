@@ -1,7 +1,7 @@
-# Install Dart-SASS
+# Install Dart-Sass
 
 ## Materials
-* Dart-SASS
+* Dart-Sass
 * Terminal
 
 ## Instructions

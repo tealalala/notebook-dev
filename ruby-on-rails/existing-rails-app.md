@@ -13,7 +13,7 @@
 ```
 git clone $1
 rails db:create
-rals db:migrate
+rails db:migrate
 
 rbenv local $2
 bundle install

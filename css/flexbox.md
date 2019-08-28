@@ -15,19 +15,20 @@
 ## Flex Container Properties
 
 * display
-* align-content (spacing in cross axis)
-* align-items (cross axis)
-* justify-content (main axis)
 * flex-flow
   - flex-direction
   - flex-wrap
+* align (this is not a property)
+  - align-content (spacing in cross axis)
+  - align-items (cross axis)
+* justify-content (main axis)
 
 ---
 
 ## Flex Item Properties
-* align-self
 * flex
   - flex-grow
   - flex-shrink
   - flex-basis
 * order
+* align-self

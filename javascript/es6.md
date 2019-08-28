@@ -1,18 +1,18 @@
 # ES6 (EcmaScript 6)
 
 ## Table of Contents
-* [Destructuring](#destructuring)
-* [Classes](#classes)
-* [Functions](#functions)
-  - Arrow Functions
-* [Modules](#modules)
-  - Exports
-  - Imports
-* [Operators](#operators)
-  - Spread & Rest Operators
-* [Variables](#variables)
-  - `let`
-  - `const`
+- [ES6 (EcmaScript 6)](#es6-ecmascript-6)
+  - [Table of Contents](#table-of-contents)
+  - [Destructuring](#destructuring)
+  - [Classes](#classes)
+  - [Functions](#functions)
+    - [Arrow Functions](#arrow-functions)
+  - [Modules](#modules)
+    - [Export](#export)
+    - [Import](#import)
+  - [Operators](#operators)
+    - [Spread & Rest Operators](#spread--rest-operators)
+  - [Variables](#variables)
 
 ---
 
@@ -63,7 +63,7 @@ class Person extends Human {
 
 ### Arrow Functions
 * removes issues with `this` keyword
-* `this` keyword is implicitly added to arrow function
+* `this` keyword is implicitly added with arrow function
 
 ```
 # arrow function

@@ -6,9 +6,11 @@
 ---
 
 ## Table of Contents
-* [Before Development](#before-development)
-* [During Development](#during-development)
-* [After Development / Production](#after-development--production)
+- [Gatsby.js](#gatsbyjs)
+  - [Table of Contents](#table-of-contents)
+  - [Before Development](#before-development)
+  - [During Development](#during-development)
+  - [After Development / Production](#after-development--production)
 
 ---
 
