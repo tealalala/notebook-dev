@@ -4,6 +4,7 @@ My web dev notebook for:
 * analyses
 * concepts
 * instructions
+* Today I Learned
 
 ---
 
