@@ -23,6 +23,7 @@ class DoctorWho extends React.component {
       // directives
       // return() method
 }
+```
 
 ## functional components
 - no `this` keyword when referring to state + regular methods
@@ -33,7 +34,4 @@ const DoctorWho = props => {
    // regular component methods
    // return() method
 }
-```
-
-
 ```
