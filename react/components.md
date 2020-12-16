@@ -3,7 +3,7 @@
 This is a quick note about React components with comments.
 
 A note about managing data flow:
-- `top down` / `Unidirectional` data flow - pass the parent component's state (`prop`) to its childre component
+- `top down` / `Unidirectional` data flow - pass the parent component's state (`prop`) to its child component
 
 There are 2 types of react components:
 - class-based components
