@@ -16,9 +16,9 @@ git checkout -b sub-branch1 branch1
 git push origin sub-branch1
 
 # delete feature-branch
-git branch -D feature-branch            # delete local repo
-git push origin --delete feature-branch # delete remote repo
-git fetch --all --prune                 # clean up branches and local repos
+git branch -D feature-branch            # delete local branch
+git push origin --delete feature-branch # delete remote branch
+git fetch --all --prune                 # clean up branches and local branches
 
 # if on feature-branch first
 git pull origin master
@@ -26,13 +26,6 @@ git checkout master
 git merge feature-branch
 git push origin master
 git log --oneline -n5
-
-# delete local branch
-git branch -D feature-branch
-
-# delete remote branch
-git push origin --delete feature-branch
-git push origin :feature-branch
 
 # git pull
 git pull                # runs git fetch + git merge
