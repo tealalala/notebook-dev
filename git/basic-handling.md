@@ -34,6 +34,10 @@ git branch -D feature-branch
 git push origin --delete feature-branch
 git push origin :feature-branch
 
+# git pull
+git pull                # runs git fetch + git merge
+git pull --rebase       # runs git fetch + git rebase
+
 # rebase master into feature branch
 git fetch                 # receive latest changes from remote git repo
 git rebase origin/master  # integrate changes from master into feature
