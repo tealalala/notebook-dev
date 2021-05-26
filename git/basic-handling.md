@@ -34,12 +34,15 @@ git pull --rebase       # runs git fetch + git rebase
 # rebase master into feature branch
 git fetch                 # receive latest changes from remote git repo
 git rebase origin/master  # integrate changes from master into feature
-git add .                 # stage changes
-# NOTE: do not run git commit, since we're just integrating master to feature, not committing anything new
 git rebase --continue     # after resolving conflicts (if any), continue with rebase
 git rebase --abort        # cancel rebasing rather than resolve conflicts
 git push                  # push rebased changes into feature, 
                           # may need to do `git push --force` (do this if you're the only one working on your feature branch)
+
+# squash commits on feature branch
+git rebase -i HEAD~4      # interactive rebase, displays last 4 commits in editor
+                          # in editor, determine which commits to squash
+git push --force          # do this if on feature branch only (if ok with re-writing own branch history), not in master
 
 # create merge request
 git checkout master
