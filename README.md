@@ -1,10 +1,12 @@
-# Notebook
-My web dev notebook for:
+# My Web Developer Notebook - Today I Learned
+This is my web dev notebook:
 
 * analyses
 * concepts
 * instructions
 * Today I Learned
+
+This is inspired by [Josh Branchaud's Today I Learned (TIL)](https://github.com/jbranchaud/til).
 
 ---
 
